@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexander Malanaphy — Finance & Sales</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">AM</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Let's Connect</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-layout">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Finance · Sales · Leadership</p>
+        <h1 class="hero-name">Alexander<br><span class="accent">Malanaphy</span></h1>
+        <p class="hero-subtitle">BS Finance candidate at Rutgers Business School<br>with a 4.0 Business GPA — driven by results, relationships, and growth.</p>
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="document.getElementById('experience').scrollIntoView({behavior:'smooth'})">View My Work</button>
+          <button class="btn-outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get In Touch</button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">3.7</span><span class="stat-label">GPA</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">4.0</span><span class="stat-label">Business GPA</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">28+</span><span class="stat-label">Deals Closed</span></div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring"></div>
+        <img
+          src="1773192965500_image.png"
+          alt="Alexander Malanaphy"
+          class="hero-photo"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-tag">About Me</p>
+          <h2>Finance student.<br>Sales professional.<br><span class="accent">Natural leader.</span></h2>
+          <p>I'm a Finance student at Rutgers Business School with a passion for building genuine relationships that drive real outcomes. From closing solar energy deals to leading political campaigns door-to-door, I thrive at the intersection of people, persuasion, and purpose.</p>
+          <p>As a Dean's Scholar in the Honors College, I balance academic excellence with hands-on professional experience — always seeking environments where I can learn fast and contribute immediately.</p>
+          <div class="about-tags">
+            <span class="tag">📍 Bloomfield, NJ</span>
+            <span class="tag">🎓 Rutgers Business School</span>
+            <span class="tag">💼 Finance, May 2027</span>
+            <span class="tag">🌿 Renewable Energy</span>
+          </div>
+        </div>
+        <div class="about-card-stack">
+          <div class="about-card card-top">
+            <div class="card-icon">🏆</div>
+            <h4>Dean's Scholar</h4>
+            <p>Dean's Scholarship & Dean's Promise recipient, Honors College</p>
+          </div>
+          <div class="about-card card-mid">
+            <div class="card-icon">🇫🇷</div>
+            <h4>Bilingual</h4>
+            <p>Conversational proficiency in French</p>
+          </div>
+          <div class="about-card card-bot">
+            <div class="card-icon">🤝</div>
+            <h4>Community Leader</h4>
+            <p>Democratic District Leader & Fraternity Scholarship Chair</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <p class="section-tag">Professional Experience</p>
+      <h2 class="section-title">Where I've <span class="accent">made an impact</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-index="0">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Jun 2025 — Present</div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <h3>Sales Manager</h3>
+                <p class="tl-company">Enersun Solar · Bloomfield, NJ</p>
+              </div>
+              <span class="tl-badge current">Current</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Generated tens of thousands of cold calls to promote a federal solar program, securing <strong>28 qualified appointments</strong> and converting 7 into closed sales.</li>
+              <li>Built and led a <strong>team of 12 cold callers</strong> as Hiring Manager, overseeing recruitment and performance.</li>
+              <li>Navigated complex objections — cost, eligibility, time — by building trust and demonstrating value.</li>
+              <li>Promoted into an appointment closer role, qualifying homeowners and closing deals to initiate solar installations.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="1">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Jun 2025 — Sep 2025</div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <h3>Virtual Sales Intern</h3>
+                <p class="tl-company">Campus Ink · Urbana, IL</p>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Tailored apparel orders to each customer's needs using deep knowledge of Campus Ink's brands, printing methods, and pricing.</li>
+              <li>Refined pitches, built trust, and strengthened client relationships through expert sales training.</li>
+              <li>Assisted Rutgers University student organizations in designing and securing branded apparel, boosting repeat business.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="2">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Jun 2024 — Present</div>
+          <div class="tl-card">
+            <div class="tl-header">
+              <div>
+                <h3>Democratic District Leader 2-12</h3>
+                <p class="tl-company">Essex County Democrats · Bloomfield, NJ</p>
+              </div>
+              <span class="tl-badge current">Current</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Engaged <strong>hundreds of residents</strong> through door-to-door conversations, building trust around local issues.</li>
+              <li>Demonstrated in-depth knowledge of city issues and strong communication skills across diverse communities.</li>
+              <li>Supported Jenny Mundell's victory in the Bloomfield mayoral primary election through grassroots campaigning.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-tag">Skills & Interests</p>
+      <h2 class="section-title">What I <span class="accent">bring to the table</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">💬</div>
+          <h4>Sales & Persuasion</h4>
+          <p>Cold calling, objection handling, consultative selling, and closing — honed across multiple industries.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">👥</div>
+          <h4>Leadership & Team Building</h4>
+          <p>Hired and managed a team of 12, led fraternity scholarship programs, and directed political campaigns.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h4>Finance & Accounting</h4>
+          <p>Coursework in Macroeconomics, Financial Accounting, and Communications at Rutgers Business School.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🌍</div>
+          <h4>French (Conversational)</h4>
+          <p>Able to engage with French-speaking clients and colleagues in professional and social settings.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🤝</div>
+          <h4>Community Engagement</h4>
+          <p>Grassroots organizing, door-to-door outreach, and coalition building across diverse communities.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🌿</div>
+          <h4>Renewable Energy</h4>
+          <p>Deep interest and first-hand sales experience in federal solar programs and clean energy markets.</p>
+        </div>
+      </div>
+
+      <div class="interests-row">
+        <span class="interest-chip">💪 Physical Fitness</span>
+        <span class="interest-chip">🏠 Real Estate</span>
+        <span class="interest-chip">☀️ Renewable Energy</span>
+        <span class="interest-chip">🏛️ Politics</span>
+        <span class="interest-chip">❤️ Health & Wellness</span>
+        <span class="interest-chip">🎓 Sigma Alpha Epsilon</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-left">
+          <p class="section-tag">Contact</p>
+          <h2>Ready to <span class="accent">work together?</span></h2>
+          <p>Whether you're looking for a driven finance professional, a sales-minded intern, or simply want to connect — I'd love to hear from you.</p>
+          <div class="contact-links">
+            <a href="mailto:alexander.malanaphy@rutgers.edu" class="contact-link">
+              <span class="contact-link-icon">✉️</span>
+              <span>alexander.malanaphy@rutgers.edu</span>
+            </a>
+            <a href="tel:6463270034" class="contact-link">
+              <span class="contact-link-icon">📞</span>
+              <span>(646) 327-0034</span>
+            </a>
+            <a href="https://www.linkedin.com/in/alexander-malanaphy-545140366" target="_blank" class="contact-link">
+              <span class="contact-link-icon">💼</span>
+              <span>linkedin.com/in/alexander-malanaphy</span>
+            </a>
+            <a href="#" class="contact-link">
+              <span class="contact-link-icon">📍</span>
+              <span>Bloomfield, NJ 07003</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" placeholder="How can I help?" />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea placeholder="Your message..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">AM</span>
+      <span class="footer-copy">© 2025 Alexander Malanaphy · Built with ambition.</span>
+      <a href="https://www.linkedin.com/in/alexander-malanaphy-545140366" target="_blank" class="footer-li">LinkedIn ↗</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
